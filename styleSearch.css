@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    color: #A66400;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font: 500;
+    cursor:default;
+}
+/*header*/
+header{
+    background-color:#FFB440 ;
+    display: flex;
+}
+div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+    margin: auto;
+    
+}
+#logo_link{
+    margin: 0;
+}
+.logo_img{
+    margin: 20px;
+    padding-top: 10px;
+    transition-duration:0.5s ;
+}
+.logo_img:hover{
+    width: 110px;
+}
+.panel{
+    display: flex;
+    margin:auto;  
+}
+.panel_button{
+    text-align: center;
+    border: 2px solid #A66400;
+    border-radius: 3px;
+    width: 200px;
+    display: flex;
+    background-color: #FFC873;
+    margin-left: 50px;
+    margin-right: 50px; 
+    transition-duration: 0.5s;
+}
+.panel_button:hover{
+    background-color:  #A66400;
+    color:#FFC873;
+}
+
+.button_text{
+    margin: auto;
+    font-size: 18px;
+    font-weight: 600;
+
+    
+}
+/*section*/
+section{
+    background-color: #ec8e00;
+    color:white;
+}
+.search_input{
+    background-color: #FF9A00;
+    background-size: cover;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+}
+.list{
+    background-color: #FF9A00;
+    background-size: cover;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.card{
+    border: 2px solid #FFB440;
+    margin: 20px;
+    display: block;
+    background-color: #FFC873;
+    color: #A66400;
+    transition-duration: 0.5s;
+}
+.card:hover{
+    border-color:#A66400 ;
+}
+.img{
+    width: 20%;
+    transition-duration: 0.5s;
+}
+.img:hover{
+    width: 25%;
+}
+
+/*footer*/
+footer{
+    background-color: #FFB440;
+    display: flex;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.phone_number{
+    justify-content: left;
+    margin: auto;
+    cursor: pointer;
+}
+.links_block{
+    justify-content: right;  
+    margin: auto;
+    cursor: pointer;
+}
+.link:hover{
+    color: white;
+}

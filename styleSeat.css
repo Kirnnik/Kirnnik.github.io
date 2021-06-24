@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    color: #A66400;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font: 500;
+    cursor:default;
+    justify-content: center;
+}
+/*header*/
+header{
+    background-color:#FFB440 ;
+    display: flex;
+}
+div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    color: currentColor;
+    margin: auto;
+    
+}
+#logo_link{
+    margin: 0;
+}
+.logo_img{
+    margin: 20px;
+    padding-top: 10px;
+    transition-duration:0.5s ;
+}
+.logo_img:hover{
+    width: 110px;
+}
+.panel{
+    display: flex;
+    margin:auto;  
+}
+.panel_button{
+    text-align: center;
+    border: 2px solid #A66400;
+    border-radius: 3px;
+    width: 200px;
+    display: flex;
+    background-color: #FFC873;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition-duration: 0.5s;
+    
+}
+.panel_button:hover{
+    background-color:  #A66400;
+    color:#FFC873;
+    
+}
+.button_text{
+    margin: auto;
+    font-size: 18px;
+    font-weight: 600;  
+}
+
+
+section{
+    background-color: #ec8e00;
+    color:white;
+}
+.scheme{
+    background-color: #FF9A00;
+    background-size: cover;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.btn{
+    border: 3px solid;
+    padding:10px 40px ;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    transition-duration: 0.5s;
+}
+.btn:hover{
+    border-color:#A66400;
+    color: #A66400;
+}
+
+
+/*footer*/
+footer{
+    background-color: #FFB440;
+    display: flex;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.phone_number{
+    justify-content: left;
+    margin: auto;
+    cursor: pointer;
+}
+.links_block{
+    justify-content: right;  
+    margin: auto;
+    cursor: pointer;
+}
+.link:hover{
+    color: white;
+}
